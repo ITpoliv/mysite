@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мій сайт</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h1>
+                Привіт, це сайт з реєстрацією
+            </h1>
+            <br><br>
+            <form action="/about.html">
+                <p class="imya">Ім'я:</p>
+                <br>
+                <label for="username"></label>
+                <input type="text" id="username" user="username" placeholder="P.S. Твоє ім'я" title="Потрібно заповнити своє ім'я" required>
+                <br><br><br>
+                
+                <p class="parol">Пароль:</p>
+                <br>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="P.S. тут буде твій пароль" title="Потрібно заповнити пароль" required>
+                <br><br><br>
+
+                <p class="stat">Яка в тебе стать?</p>
+                <br>
+                <label for="gender"></label>
+                <input type="radio" name="gender" value="male"> <b style="color: aliceblue;">Чоловік</b>
+                <input type="radio" name="gender" value="female"> <b style="color: aliceblue;">Жінка</b>
+                <input type="radio" name="gender" value="female"> <b style="color: aliceblue;">Секрет</b>
+                <br><br><br>
+
+                <p class="hobi">Яке в тебе є хобі?</p>
+                <br>
+                <label for="hobby"></label>
+                <textarea name="hobby" id="hobby" rows="4" cols="30" placeholder="P.S. вкажи свої навички чи хобі" title="Потрібно заповнити своє хобі" required>
+                </textarea>
+                <br><br>
+
+                <input class="knopka" type="checkbox" name="agree" value="yes" required> <b style="color: aliceblue;">Погоджуюсь з умовами</b>
+                <br><br>
+
+                <button class="box" href="/about.html" target="_blank" type="submit" id="button">Далі</button>
+            </form>
+        </div>
+    </body>
+</html>
