@@ -1,0 +1,93 @@
+* {
+    margin: auto;
+    text-align: center;
+}
+
+p, h1 {
+    background-image: url(texy.jpg);
+}
+
+.imya {
+    width: 80px;
+    height: 20px;
+}
+
+.parol {
+    width: 90px;
+    height: 20px;
+}
+
+.stat {
+    width: 150px;
+    height: 20px;
+}
+
+.hobi {
+    width: 150px;
+    height: 20px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 25px;
+    width: 400px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 2px solid darkblue;
+    backdrop-filter: blur(5px);
+}
+
+#username {
+    background-color:blanchedalmond !important;
+    opacity: 0.5;
+}
+
+#password {
+    background-color: antiquewhite !important;
+    opacity: 0.6;
+}
+
+#username, #password, p, #button {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+    width: 125px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+.knopka {
+    width: 12px;
+    height: 12px;
+    transition: all 0.5s ease-in-out;
+}
+
+.knopka:hover {
+    width: 15px;
+    height: 15px;
+}
+
+div {
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    width: 550px;
+    height: 620px;
+    margin-top: 100px;
+    backdrop-filter: blur(5px);
+}
+
+body {
+    background: url(garno.jpg) no-repeat center/cover;
+}
